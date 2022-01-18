@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: rgb(13, 2, 51);
+    display: flex;
+    justify-content: center;
+}
+
+.david {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.david h2 {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: letter 5s infinite;
+}
+
+@keyframes letter {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+
+.david img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.david .axie {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 150px;
+}
+
+.david .axie2 {
+    transform: scaleX(-1);
+    position: absolute;
+    top: 0;
+    right: 380px;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.skill {
+    margin-bottom: 50px;
+}
+
+.skill p {
+    color: #fff ;
+    text-align: justify;
+}
+
+.skill img {
+    width: 30px;
+}
+
+.icon {
+    width: 150px;
+}
+
+.calculator {
+    height: 100px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.calculator p {
+    text-align: center;
+}
+
+.calculator .text {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;  
+}
+
+.calculator .red {
+    color: red;
+}
+
+.calculator .purple {
+    color: purple;
+}
+
+.calculator .green {
+    color: green;
+}
+
+.calculator .dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.calculator .dates input {
+    margin-right: 20px;
+    text-align: center;
+    cursor: default;
+    outline: none;
+}
+
+.appBg {
+    height: 420px;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.appBg form {
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+.appBg input[type=textfield] {
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+.appBg input[type=button], input[type=reset] {
+    width: 20%;
+    cursor: pointer;
+    font-size: 25px;
+    color: #000;
+    padding: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.enzo {
+    width: 500px;
+    margin: auto;
+}
+
+.enzo p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
